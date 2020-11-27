@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -17,8 +17,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "git@github.com:vmanot/Merge.git", .branch("master")),
-        .package(url: "git@github.com:SwiftUIX/SwiftUIX.git", .branch("master")),
+        .package(url: "https://github.com/vmanot/Merge.git", .branch("master")),
+        .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", .branch("master")),
     ],
     targets: [
         .target(
@@ -29,8 +29,5 @@ let package = Package(
             ],
             path: "Sources"
         ),
-    ],
-    swiftLanguageVersions: [
-        .version("5.1")
     ]
 )
