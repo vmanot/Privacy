@@ -4,7 +4,6 @@
 
 import Merge
 import LocalAuthentication
-import SwiftUIX
 
 public final class LocalAuthenticator {
     public enum AuthenticationType {
